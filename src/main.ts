@@ -9,7 +9,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'https://learning-tracker.milestoned.life',
+      'https://learning-tracker-milestoned-life.vercel.app',
     ],
     credentials: true,
   });
